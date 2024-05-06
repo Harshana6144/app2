@@ -14,12 +14,18 @@ class MyApp extends StatelessWidget {
       title:'space app',
       home:Scaffold(
         body:Container(
-          height: 100,
-          width: 150,
+          height: 250,
+          width: 250,
+          decoration: BoxDecoration(
+          borderRadius:BorderRadius.
+          circular(1000),
           color: Colors.red,
+          ),
         )
       )
     );
   }
 }
+
+
 
